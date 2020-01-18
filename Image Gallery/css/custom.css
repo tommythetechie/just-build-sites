@@ -1,0 +1,55 @@
+*,
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 2.2em;
+}
+
+header p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5em;
+}
+
+.main {
+    min-width: 100%;
+    clear: both;
+    overflow: auto;
+    padding-top: 50px;
+}
+
+footer {
+    min-width: 100%;
+    height: 100px;
+}
+
+.photo-box {
+    width: 320px;
+    text-align: center;
+    float: right;
+}
+
+.photo-box h3 {
+}
+
+.photo-box img {
+    width: 250px;
+    
+}
+
+.photo-box p {
+}
