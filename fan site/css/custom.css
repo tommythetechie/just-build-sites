@@ -1,0 +1,54 @@
+*,
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    background-color:#181818;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+header {
+    text-align: center;
+    
+    margin-bottom: 18%;
+}
+header .logo {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+nav {
+
+}
+nav ul {
+
+}
+nav ul li {
+    list-style: none;
+    width: 25%;
+    border: 1px solid wheat;
+    float: left;
+}
+
+.main {
+    width: 70%;
+}
+
+article .posted-by {
+    border: 1px solid gray;
+    margin: 0px;
+}
+article h2 {
+    margin-bottom: 0px;
+}
+
+article p {
+    margin-top: 0px;
+}
+
