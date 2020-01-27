@@ -13,6 +13,7 @@ body {
 .wrapper {
     width: 1000px;
     margin: 0 auto;
+    display: flow-root;
 }
 header {
     text-align: center;
@@ -38,17 +39,42 @@ nav ul li {
 
 .main {
     width: 70%;
+    float: left;
 }
 
-article .posted-by {
-    border: 1px solid gray;
-    margin: 0px;
+article {
+    margin-bottom: 4%;
+    background-color: #202020;
+    padding: 2%;
+    border: 14px solid #303030;
+    
 }
+
 article h2 {
     margin-bottom: 0px;
 }
-
-article p {
+article small {
     margin-top: 0px;
 }
 
+.posted-by {
+    margin-top: 0;
+    color: #C8C8C8;
+}
+.continue-reading {
+    color: #B00000;
+    text-decoration: underline;
+}
+
+aside {
+    width: 28%;
+    background-color:#303030;
+    float: right;
+}
+aside img {
+    max-width: 100%;
+    margin: 0% 3% 6% 3%;
+}
+.ads {
+    text-align: center;
+}
