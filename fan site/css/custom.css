@@ -1,3 +1,10 @@
+.clearfix:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+ }
 *,
 html {
     box-sizing: border-box;
@@ -28,7 +35,7 @@ nav {
 
 }
 nav ul {
-
+    
 }
 nav ul li {
     list-style: none;
@@ -52,24 +59,35 @@ article {
 
 article h2 {
     margin-bottom: 0px;
+    
 }
 article small {
     margin-top: 0px;
+}
+article img {
+    
+}
+article p {
+    width: 60%;
+    
 }
 
 .posted-by {
     margin-top: 0;
     color: #C8C8C8;
+    
 }
 .continue-reading {
     color: #B00000;
     text-decoration: underline;
+    
 }
 
 aside {
     width: 28%;
     background-color:#303030;
     float: right;
+    display: flow-root;
 }
 aside img {
     max-width: 100%;
@@ -77,4 +95,46 @@ aside img {
 }
 .ads {
     text-align: center;
+}
+.ads h3 {
+    text-transform: uppercase;
+    padding-left: 14%;
+    margin-bottom: 2%;
+    text-align: left;
+}
+.ads hr {
+    width:80%;
+    float: right;
+    margin-right: 7%;
+}
+
+.links {
+    
+}
+.links h3 {
+    text-transform: uppercase;
+    padding-left: 14%;
+    margin-bottom: 2%;
+    text-align: left;
+}
+.links hr {
+    width:80%;
+    float: right;
+    margin-right: 7%;
+}
+.links ul {
+    margin-top: 1%;
+    margin-bottom: 16%;
+    clear: both;
+}
+.links ul li {
+    list-style-type: none;
+    text-align: left;
+}
+.links ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 0.8em;
+    padding-bottom: 1%;
+    text-align: left;
 }
